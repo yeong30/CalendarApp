@@ -6,6 +6,9 @@
     "noEmit": true,
     "target": "esnext",
     "baseUrl": ".",
+    "jsx": "react",
+    "resolveJsonModule": true,
+     "allowSyntheticDefaultImports" :true,
     "paths": {
       "@/*": ["src/*"],
       "@components/*": ["src/components/*"],
